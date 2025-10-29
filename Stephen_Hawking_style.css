@@ -42,7 +42,7 @@ body{
     margin-right: 10%; 
 }
 p{
-    font-size:170%;
+    font-size:200%;
 }
 .text_fr{ 
     height: 50%;
@@ -130,4 +130,5 @@ input{
 .text_fr{ 
     text-align: left;  
     vertical-align: top;
+
 }
