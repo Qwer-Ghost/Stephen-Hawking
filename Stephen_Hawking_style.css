@@ -1,0 +1,133 @@
+.h{
+    text-align: center;
+}
+h1{
+    font-family: 'Aptos', sans-serif;
+}
+body{
+    background-color: #2b2b2b;
+    font-family: 'Cascadia Mono', serif;
+    color: #fee0e0;
+}
+.inf{ 
+    margin-top: 20px;
+    margin-left: 10%; 
+}
+.div_a{ 
+    background: rgb(54, 54, 54);
+    padding: 8px 16px; 
+    border-radius: 1000px;
+    box-shadow: 2px 2px 15px rgba(221, 0, 0, 0.571); 
+    font-size: 30px;
+    font-weight: bold;  
+    color: rgb(233, 0, 0);
+    text-decoration: none; 
+}
+.div_a2{ 
+    z-index: 10;
+    background: rgb(54, 54, 54);
+    padding: 8px 16px; 
+    border-radius: 1000px;
+    box-shadow: 2px 2px 15px rgba(221, 0, 0, 0.571); 
+    font-size: 30px;
+    font-weight: bold;  
+    color: rgb(233, 0, 0);
+    text-decoration: none; 
+    position: fixed; 
+    top: 2%;
+    right: 2%;
+}
+.inf{ 
+    margin-top: 20px;
+    margin-right: 10%; 
+}
+p{
+    font-size:170%;
+}
+.text_fr{ 
+    height: 50%;
+
+}
+@media (max-width: 1325px){
+    .div_a{ 
+        display: grid;
+        padding: 10px;  
+        width: 100%;
+        margin: 0 auto;
+        place-items: center;
+        justify-content: center; 
+        border-radius: 1000px;
+        box-shadow: 2px 2px 15px rgba(221, 0, 0, 0.571); 
+        font-size: 100%;
+        font-weight: bold;  
+        color: rgb(233, 0, 0);
+        text-decoration: none; 
+        margin-top: 15px;
+
+    }
+    p{
+        font-size: 70%;
+     }
+    
+    .inf{ 
+        margin-top: 20px; 
+    }
+    .text_fr{
+        height: 70%;
+    }
+
+}
+.div_a:hover{
+    transition: 0.25s;
+    background: rgb(236, 0, 0);
+    color: rgb(40, 40, 40);
+    box-shadow: none;  
+}
+.div_a2:hover{
+    transition: 0.25s;
+    background: rgb(236, 0, 0);
+    color: rgb(40, 40, 40);
+    box-shadow: none;  
+}
+td{
+    vertical-align: top;
+}
+.foto{
+    position: absolute;
+    width: 25%;
+    z-index: 0; 
+    border-radius: 17%;
+    box-shadow: 2px 2px 15px rgba(147, 146, 146, 0.571);
+
+}
+.text_a{
+    
+    color: #ffc5c5;
+    text-decoration: none; 
+    font-weight: bold;
+
+}
+.td_foto{
+    width: 40%;
+}
+ 
+.form_c{
+    left: 20%;
+    margin-top: 100px;
+    position: absolute;
+    box-shadow: 2px 2px 15px rgba(221, 0, 0, 0.571); 
+    width: 60%;
+    height: 70%;
+    border-radius: 50px;
+}
+input{ 
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    background-color: rgb(40, 40, 40);
+    color:#fee0e0; 
+}
+.text_fr{ 
+    text-align: left;  
+    vertical-align: top;
+}
